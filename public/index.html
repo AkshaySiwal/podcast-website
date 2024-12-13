@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Podcast Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Podcast Hub</h1>
+            <p class="subtitle">Listen to Amazing Content</p>
+        </header>
+
+        <div class="player-container">
+            <div id="playlist" class="playlist">
+                <!-- Episodes will be loaded here -->
+            </div>
+
+            <div class="player">
+                <div class="player-info">
+                    <img id="episode-image" src="default-podcast.jpg" alt="Episode Cover">
+                    <h3 id="now-playing">Select an episode to play</h3>
+                </div>
+                <div class="controls">
+                    <audio id="audio-player" controls></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
